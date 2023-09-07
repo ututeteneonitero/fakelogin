@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login{
+    padding-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 400px;
+    background-color: rgb(49, 210, 205);
+    gap:60px;
+}
+
+.login input{
+    background-color: white;
+    border-width:0px 0px 2px 0px ;
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.login button{
+    border-width: 1px;
+    border-radius: 4px;
+    width: 70px;
+    height: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login button:hover{
+    background-color:rgba(81, 78, 78, 0.573);
+}
+
+.login h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
